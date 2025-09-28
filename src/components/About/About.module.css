@@ -53,6 +53,13 @@
   transition: 0.4s;
 }
 
+.aboutItem img {
+  width: 40px;   /* match desired size */
+  height: 40px;
+  object-fit: contain; /* keeps proportions */
+  margin-right: 20px;  /* spacing between icon and text */
+}
+
 .aboutItem:hover {
   background-size: 100% 100%;
 }
@@ -89,4 +96,5 @@
     padding-left: 0;
     padding-right: 0;
   }
+
 }
